@@ -1,0 +1,82 @@
+/* Adsense Widget Styles */
+.adsense, ins.adsbygoogle.adsense{ margin: .63em auto; }
+.adsense-shortcode {
+  margin: .63em 0;
+}
+.adsense.placeholder{ 
+  background:#eee; 
+  box-shadow: inset rgba(0,0,0,0.3) 0 0 4px; 
+  text-align:center; 
+  color: rgba(0,0,0,0.6); 
+  font-size: 1.2em;
+	border-radius: 3px;
+}
+.adsense-warning {
+  border: 1px solid #eee;
+  padding: 10px;
+  font-size: 12px;
+  background: #FCE4EC;
+  border-color: #F8BBD0;
+  border-radius: 6px;
+}
+
+.adsense.format-display{ min-width: 160px; min-height: 90px; }
+
+/* Placeholder Styling */
+.adsense.placeholder.format-display{ background:rgb(144, 190, 18); }
+.adsense.placeholder.format-in_feed{ background:rgb(228, 133, 69); }
+.adsense.placeholder.format-in_article{ background:rgb(224, 236, 53); }
+.adsense.placeholder.format-link{ background:rgb(81, 145, 230); }
+.adsense.placeholder.format-matched_content{ background:rgb(18, 184, 190); }
+
+.placeholder table, .placeholder tr, .placeholder td{ background:transparent; border:0; margin:0; padding:0 }
+.placeholder table{ width:100%; height:100%; }
+.placeholder td{ vertical-align: middle; text-align:center }
+
+ins.adsbygoogle {
+  display: block;
+  background: transparent;
+  padding:0; 
+  margin:0;
+}
+.adsense.format-in_article{ text-align:center; clear:both }
+
+/* Responsive Sizing */
+.adsense.vertical{min-height:600px}
+.adsense.auto,
+.adsense.rectangle,
+.adsense.sm-rectangle, .adsense.md-rectangle, .adsense.lg-rectangle,
+.adsense.md-banner, .adsense.lg-banner,
+.adsense.md-leaderboard, .adsense.lg-leaderboard, .adsense.lg-billboard{ 
+  width: 336px; height: 280px; }
+
+.adsense.sm-banner{ width: 320px; height: 100px; }
+.adsense.sm-vertical{ height: 600px; }
+
+@media (min-width: 1024px){
+  .adsense.auto, .adsense.md-banner{ width: 468px; height: 60px }
+  .adsense.md-rectangle{ width: 336px; height: 280px; }
+  .adsense.md-leaderboard{ width: 728px; height: 90px; }
+  .adsense.md-vertical{ height: 600px }
+	.md-alignright{ float:right }
+}
+
+@media (min-width: 1439px){
+  .adsense.lg-banner{ width: 468px; height: 60px }
+  .adsense.lg-rectangle{ width: 336px; height: 280px; }
+  .adsense.auto, .adsense.lg-leaderboard{ width: 728px; height: 90px; }
+  .adsense.lg-billboard{ width: 970px; height: 250px }
+  .adsense.lg-vertical{ height: 600px }
+}
+
+.adsense.b300x250{width:300px;height:250px}
+.adsense.b300x600{width:300px;height:600px}
+
+/* prevent overflow on wrapping element */
+.adsense.responsive {
+  max-width: 100%;
+}
+
+
+
+
